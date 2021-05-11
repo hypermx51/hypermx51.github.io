@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    
+
+
+    <title>obolystitelynosty</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+<body>
+
+<!-- Wrapper -->
+<div id="wrapper" class="main">
+
+    <!-- Header -->
+    <header id="header">
+        <h1><a href="index.html"> obolystitelynosty </a></h1>
+        <nav class="links">
+            <ul>
+                <li><a href="blog.html">Artículo</a></li>
+                <li><a href="contact.html">Contactos</a></li>
+                <li><a href="terms.html">Términos y condiciones</a></li>
+                <li><a href="policy.html">Política de privacidad</a></li>
+            </ul>
+        </nav>
+        <nav class="main">
+            <ul>
+                <li class="search">
+                    <a class="fa-search" href="#search">la búsqueda de</a>
+                    <form id="search" method="get" action="#">
+                        <input type="text" name="query" placeholder="la búsqueda de" />
+                    </form>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Post -->
+        <h2>Contactos</h2>
+
+        <section id="contact" class="post">
+            <div class="container">
+                <div class="row">
+                    <div class="main_contact p-top-100">
+
+                        <div class="col-md-6 sm-m-top-30">
+                            <form class="" action="thanks.html">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+
+                                            <input id="first_name" name="name" type="text" class="form-control" required=""
+                                                   placeholder="El nombre de">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+
+                                            <input id="email" name="email" type="text" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <input style="margin-bottom: 10px" id="phone" name="phone" type="text" class="form-control" placeholder="El número de teléfono">
+                                            <textarea class="form-control" rows="6"></textarea>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <input id="check" type="checkbox" name="terms" value="check" required=""/>
+                                            <label for="check" >
+
+                                                <a href="policy.html" target="_blank">
+                                                    He leído y estoy de acuerdo con los términos del acuerdo de usuario
+                                                </a>
+                                            </label>
+                                            <button class="btn btn-default" type="submit">Enviar</button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </form>
+                        </div>
+
+
+
+
+                    </div>
+                </div><!--End off row -->
+            </div><!--End off container -->
+        </section>
+
+
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4 sidebar-widgets">
+        <div class="widget-wrap">
+            <div class="single-sidebar-widget popular-post-widget">
+                <h4 class="popular-title">Popular </h4>
+                <div class="popular-post-list">
+                    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+<footer>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyrights">
+                <p>  Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer_menu">
+
+        <a href="terms.html">Términos y condiciones</a>
+        <a href="policy.html">Política de privacidad</a>
+
+
+    </div>
+</footer>
+<div class='cookie-banner'>
+    <p>
+        El sitio web utiliza "cookies". Permiten identificarlo y recibir su información de la experiencia del usuario.Continuando con la navegación de la web, estoy de acuerdo con el uso de las cookies, el propietario del sitio de conformidad con  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Política de cookies</a>
+    </p>
+    <button class='close-cookie'>&times;</button>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+<script>
+    window.onload = function() {
+        $('.close-cookie').click(function () {
+            $('.cookie-banner').fadeOut();
+        })
+    }
+</script>
+<script>
+    let elems = document.querySelectorAll('.server-name');
+    elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname
+    })
+</script>
+
+</body>
+</html>
